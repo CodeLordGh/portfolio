@@ -34,7 +34,7 @@ const Header = () => {
   return (
     <header className="fixed w-full top-0 z-50 backdrop-blur-sm">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-10">
           <div className={`text-xl font-bold ${isDark ? 'text-white' : 'text-gray-800'}`}>
             Portfolio.
           </div>

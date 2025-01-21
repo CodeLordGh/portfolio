@@ -14,7 +14,7 @@ const IntroSection = () => {
     <div className="space-y-8">
       {/* Name and Title */}
       <div>
-        <h1 className="text-4xl md:text-6xl font-bold dark:text-white text-gray-900 mb-4">
+        <h1 className="text-2xl md:text-6xl font-bold dark:text-white text-gray-900 mb-4 mt-10">
           Peris Muniu
         </h1>
         <IntroTabs activeTab={activeTab} onTabChange={setActiveTab} />
